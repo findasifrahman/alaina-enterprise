@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary QA screenshots
+*-fix.png
+*-final.png
+*-update.png
+check-*.png
+final-*.png
+verify-*.png
+desktop*.png
+mobile*.png
+technical-fix.png
+business-fix.png
+
