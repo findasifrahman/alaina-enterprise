@@ -302,9 +302,17 @@ button {
   max-width: 760px;
 }
 
+.section-title mark {
+  background: linear-gradient(180deg, transparent 55%, rgba(215, 25, 32, 0.18) 55%);
+  color: var(--ink);
+  font-weight: 900;
+  padding: 0 3px;
+}
+
 .intro {
   background:
-    linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.98)),
+    radial-gradient(circle at 50% 10%, rgba(215, 25, 32, 0.08), transparent 35%),
+    linear-gradient(180deg, rgba(255,255,255,0.94), rgba(255,255,255,0.99)),
     url('/assets/gallery/partnership-handshake.png') center/cover;
 }
 
@@ -320,6 +328,7 @@ button {
   box-shadow: 0 18px 48px rgba(18, 26, 39, 0.06);
   padding: 30px;
   position: relative;
+  transition: border-color 220ms ease, box-shadow 220ms ease, transform 220ms ease;
 }
 
 .stat-grid article::before {
@@ -332,11 +341,19 @@ button {
   width: 70px;
 }
 
+.stat-grid article:hover {
+  border-color: rgba(215, 25, 32, 0.28);
+  box-shadow: 0 24px 62px rgba(18, 26, 39, 0.1);
+  transform: translateY(-4px);
+}
+
 .stat-grid strong {
   color: var(--steel);
   display: block;
   font-family: Oswald, Manrope, sans-serif;
   font-size: 52px;
+  line-height: 1;
+  margin-bottom: 12px;
 }
 
 .stat-grid .counter-value {

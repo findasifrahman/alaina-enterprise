@@ -8,9 +8,9 @@
       <nav class="desktop-nav" aria-label="Primary navigation">
         <a v-for="item in navItems" :key="item.href" :href="item.href">{{ item.label }}</a>
       </nav>
-      <a class="phone-pill" href="tel:+8801712965112" aria-label="Call Alaina Enterprise">
+      <a class="phone-pill" href="tel:+8801819833911" aria-label="Call Alaina Enterprise">
         <span class="phone-icon">Tel</span>
-        <span class="phone-number">+8801712965112</span>
+        <span class="phone-number">+8801819833911</span>
       </a>
     </header>
 
@@ -50,9 +50,9 @@
           <p class="eyebrow">Who We Are</p>
           <h2>With a vision to serve Bangladesh's vertical infrastructure.</h2>
           <span>
-            Alaina Enterprise provides one-stop engineering solutions for passenger
-            elevators, rooftop solar, generators, sub-stations, electrical works
-            and civil support.
+            Alaina Enterprise provides <mark>one-stop engineering solutions</mark>
+            for <mark>passenger elevators</mark>, rooftop solar, generators,
+            sub-stations, electrical works and civil support.
           </span>
         </div>
         <div class="stat-grid reveal">
@@ -174,9 +174,8 @@
             <h3>Office Address</h3>
             <p>House #508, 2nd Floor, Road 7, Avenue 7, Mirpur DOHS, Dhaka-1216, Bangladesh.</p>
             <h3>Phone</h3>
-            <a href="tel:+8801712965112">+8801712965112</a>
-            <a href="tel:+8801817291846">01817291846</a>
-            <a href="tel:+8801715647935">01715647935</a>
+            <a href="tel:+8801819833911">01819833911</a>
+            <a href="tel:+8801805032400">01805032400</a>
             <h3>Email</h3>
             <a href="mailto:info@alianaenterprise.com">info@alianaenterprise.com</a>
             <a href="mailto:mdlokeman@alainaenterprise.com">mdlokeman@alainaenterprise.com</a>
@@ -235,12 +234,8 @@
           <a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a>
           <a href="https://www.youtube.com/" aria-label="YouTube">yt</a>
         </div>
-        <a class="footer-phone" href="tel:+8801712965112">+8801712965112</a>
-        <a class="footer-phone" href="tel:+8801817291846">01817291846</a>
-        <p class="developer-credit">
-          Developed by
-          <a href="https://asifrahman-two.vercel.app/" target="_blank" rel="noreferrer">asifrahman</a>
-        </p>
+        <a class="footer-phone" href="tel:+8801819833911">+8801819833911</a>
+        <a class="footer-phone" href="tel:+8801817291846">+8801817291846</a>
       </div>
     </footer>
 
@@ -252,7 +247,7 @@
       </figure>
     </div>
 
-    <a class="whatsapp" href="https://wa.me/8801712965112" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+    <a class="whatsapp" href="https://wa.me/8801819833911" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
       <svg viewBox="0 0 32 32" aria-hidden="true">
         <path d="M16 3.2A12.6 12.6 0 0 0 5.2 22.3L3.7 28.8l6.6-1.7A12.6 12.6 0 1 0 16 3.2Zm0 2.3a10.3 10.3 0 0 1 8.9 15.5 10.3 10.3 0 0 1-13.9 4l-.5-.3-3.7 1 1-3.6-.3-.6A10.3 10.3 0 0 1 16 5.5Zm-4.3 5.3c-.2 0-.6.1-.9.5-.3.4-1.1 1.1-1.1 2.7s1.2 3.1 1.3 3.3c.2.2 2.3 3.6 5.7 4.9 2.8 1.1 3.4.9 4 .8.6-.1 2-.8 2.2-1.6.3-.8.3-1.5.2-1.6-.1-.2-.3-.2-.7-.4l-2.2-1c-.3-.1-.6-.2-.8.2-.2.3-.9 1.1-1.1 1.3-.2.2-.4.2-.7.1-.4-.2-1.5-.6-2.8-1.7-1-1-1.7-2.1-1.9-2.5-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.3.3-.6.1-.2.1-.4 0-.6l-1-2.4c-.2-.6-.5-.6-.8-.6h-.3Z" />
       </svg>
@@ -284,16 +279,16 @@ const mobileItems = [
   { label: 'Home', href: '#home', icon: Home },
   { label: 'Services', href: '#services', icon: Wrench },
   { label: 'Gallery', href: '#gallery', icon: Images },
-  { label: 'Call', href: 'tel:+8801712965112', icon: Phone }
+  { label: 'Call', href: 'tel:+8801819833911', icon: Phone }
 ]
 
 const heroSlides = [
   {
-    image: '/assets/gallery/ai-rooftop-solar-bangladesh.png',
-    alt: 'Bangladeshi technicians installing rooftop solar panels',
-    kicker: 'Solar | Reliability',
-    title: 'Rooftop solar systems built for Bangladesh.',
-    copy: 'Design, installation and maintenance support for reliable building energy performance.'
+    image: '/assets/gallery/ai-lift-servicing-hero.png',
+    alt: 'Elevator technicians servicing a passenger lift in a modern building lobby',
+    kicker: 'Lift | Service',
+    title: 'Passenger lift service built for daily reliability.',
+    copy: 'Lift sales, installation, repair and maintenance support for safe vertical movement.'
   },
   {
     image: '/assets/projects/dream-korobi.png',
@@ -306,7 +301,7 @@ const heroSlides = [
     image: '/assets/gallery/ai-substation-bangladesh.png',
     alt: 'Bangladeshi electrical technicians inspecting a sub-station',
     kicker: 'Power | Safety',
-    title: 'Sub-station service with technical confidence.',
+    title: 'Sub-station service',
     copy: 'Testing, commissioning and maintenance capability for commercial and industrial sites.'
   }
 ]
